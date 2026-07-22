@@ -29,10 +29,10 @@ const profile = {
   name: "Chaithanya Poreddy",
   role: "SAP ALM Professional | SAP BTP, AI & Automation Builder",
   location: "Hyderabad, India",
-  email: "chaithanya.poreddy@example.com",
-  linkedin: "#replace-linkedin-url",
-  github: "#replace-github-url",
-  resume: "#replace-resume-pdf",
+  email: "poreddychaithanya0310@gmail.com",
+  linkedin: "https://www.linkedin.com/in/poreddychaithanya0310/",
+  github: "https://github.com/chaith0310",
+  resume: "/resume.pdf",
   headline: "From SAP ALM Support to AI-Powered Solution Engineering.",
   subheadline:
     "A career journey shaped by computer science, SAP enterprise delivery, continuous learning, and hands-on projects in SAP BTP, AI, automation, and product building.",
@@ -157,8 +157,8 @@ const projects = [
     impact:
       "Shows fast product execution, event-tech thinking, and practical front-end delivery under real constraints.",
     tech: ["React", "Vite", "Tailwind", "Gamification", "Event Platform"],
-    live: "#replace-live-demo",
-    github: "#replace-github-link",
+    live: "corporate-treasure-hunt-m99k1btjg-chaith.vercel.app",
+    github: "https://github.com/chaith0310/corporate-treasure-hunt",
     architecture: "#replace-architecture-diagram",
   },
   {
@@ -176,33 +176,33 @@ const projects = [
     impact:
       "Demonstrates UI delivery, rapid iteration, and lightweight product building for internal events.",
     tech: ["React", "Vite", "Tailwind", "Game Logic", "UX"],
-    live: "#replace-live-demo",
-    github: "#replace-github-link",
+    live: "aspire-ai-quest-leiv7wkbi-chaith.vercel.app",
+    github: "https://github.com/chaith0310/aspire-ai-quest",
     architecture: "#replace-architecture-diagram",
   },
 ];
 
 const certifications = [
   {
-    title: "Certificate 1",
-    issuer: "Replace Issuer",
+    title: "SAP Certified - Integration Developer",
+    issuer: "issued by SAP",
     status: "Published on LinkedIn",
-    date: "Replace date",
-    link: "#replace-certificate-url",
+    date: "May 2026",
+    link: "https://www.credly.com/badges/1293133f-cca5-4bc7-9aee-59ef0b072ab2",
   },
   {
-    title: "Certificate 2",
-    issuer: "Replace Issuer",
+    title: "SAP Certified - SAP Build Developer",
+    issuer: "issued by SAP",
     status: "Published on LinkedIn",
-    date: "Replace date",
-    link: "#replace-certificate-url",
+    date: "Jan 2027",
+    link: "https://www.credly.com/badges/d6eecfb7-edb8-4d6f-801f-334aac37c9f3",
   },
   {
-    title: "Certificate 3",
-    issuer: "Replace Issuer",
+    title: "SAP Certified - SAP Generative AI Developer",
+    issuer: "issued by SAP",
     status: "Published on LinkedIn",
-    date: "Replace date",
-    link: "#replace-certificate-url",
+    date: "Nov 2025",
+    link: "https://www.credly.com/badges/08c14381-0a06-4650-b774-bca69fab4727",
   },
 ];
 
