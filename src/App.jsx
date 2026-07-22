@@ -841,7 +841,6 @@ function MyJourneyPage({ setActivePage }) {
                 </p>
               </div>
 
-              /*** ChevronRight className="hidden h-6 w-6 text-blue-600 lg:block" / */
             </motion.div>
           ))}
         </div>
@@ -1042,19 +1041,29 @@ function ResumePage({ openProject }) {
                 <MapPin className="h-4 w-4 text-blue-600" />
                 {profile.location}
               </p>
-              <p className="flex items-center gap-2">
-                <Mail className="h-4 w-4 text-blue-600" />
-                {profile.email}
-              </p>
-              <p className="flex items-center gap-2">
-                <ExternalLink className="h-4 w-4 text-blue-600" />
-                LinkedIn placeholder
-              </p>
-              <p className="flex items-center gap-2">
-                <Code2 className="h-4 w-4 text-blue-600" />
-                GitHub placeholder
-              </p>
-            </div>
+            <div className="mt-6 space-y-3 text-sm text-slate-600">
+
+  <p className="flex items-center gap-2">
+    <MapPin className="h-4 w-4 text-blue-600" />
+    Hyderabad, Telangana, India
+  </p>
+
+  <p className="flex items-center gap-2">
+    <Mail className="h-4 w-4 text-blue-600" />
+    {profile.email}
+  </p>
+
+</div>
+
+<div className="mt-5 flex flex-wrap gap-2">
+
+  <Button
+    href={profile.linkedin}
+    variant="
+  <Button
+    href={profile.github}
+    variant
+</div>
 
             <Button href={profile.resume} variant="primary" icon={FileText} className="mt-6 w-full">
               Download Resume
