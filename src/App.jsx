@@ -1045,14 +1045,7 @@ function ResumePage({ openProject }) {
                 <Mail className="h-4 w-4 text-blue-600" />
                 {profile.email}
               </p>
-              <p className="flex items-center gap-2">
-                <ExternalLink className="h-4 w-4 text-blue-600" />
-                {profile.ExternalLink}
-              </p>
-              <p className="flex items-center gap-2">
-                <Code2 className="h-4 w-4 text-blue-600" />
-                {profile.Code2}
-              </p>
+              
             </div>
 
             <Button href={profile.resume} variant="primary" icon={FileText} className="mt-6 w-full">
