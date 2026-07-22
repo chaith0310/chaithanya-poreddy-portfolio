@@ -7,7 +7,7 @@ import {
   BriefcaseBusiness,
   Building2,
   CheckCircle2,
-  ChevronRight,
+ /* ChevronRight, */
   Code2,
   Cpu,
   ExternalLink,
@@ -191,7 +191,7 @@ const certifications = [
     link: "https://www.credly.com/badges/1293133f-cca5-4bc7-9aee-59ef0b072ab2",
   },
   {
-    title: "SAP Certified - SAP Build Developer",
+    title: "SAP Certified - SAP Build Developer     ",
     issuer: "issued by SAP",
     status: "Published on LinkedIn",
     date: "Jan 2027",
@@ -329,8 +329,8 @@ const navItems = [
   "Projects",
   "Resume",
   "Certifications",
-  "Architecture",
-  "CreatorFlow Vision",
+ /* "Architecture", */
+  "Current Vision",
   "About",
   "Contact",
 ];
@@ -841,7 +841,7 @@ function MyJourneyPage({ setActivePage }) {
                 </p>
               </div>
 
-              <ChevronRight className="hidden h-6 w-6 text-blue-600 lg:block" />
+              /*** ChevronRight className="hidden h-6 w-6 text-blue-600 lg:block" / */
             </motion.div>
           ))}
         </div>
@@ -1416,7 +1416,7 @@ function AboutPage() {
             [
               Workflow,
               "Automation Builder",
-              "Practical systems using n8n, Google Apps Script, and browser automation concepts.",
+              "Practical systems using n8n, Google Apps, and browser automation concepts.",
             ],
             [
               Rocket,
