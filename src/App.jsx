@@ -62,9 +62,8 @@ const projects = [
     impact:
       "Positions me as a solution-oriented SAP BTP learner who can connect enterprise requirements with product thinking.",
     tech: ["SAP BTP", "GenAI", "React", "Solution Architecture", "Automation"],
-    live: "#replace-live-demo",
     github: "#replace-github-link",
-    architecture: "#replace-architecture-diagram",
+    architecture: "/SAP BTP AI Advisor Architecture.png",
   },
   {
     slug: "google-apps-script-lifecycle-platform",
@@ -83,7 +82,7 @@ const projects = [
     tech: ["Google Apps Script", "Google Sheets", "JavaScript", "Automation"],
     live: "#replace-live-demo",
     github: "#replace-github-link",
-    architecture: "#replace-architecture-diagram",
+    architecture: "/Lifecycle Architecture.png",
   },
   {
     slug: "linkedin-automation-engine",
@@ -119,28 +118,25 @@ const projects = [
     impact:
       "Demonstrates product thinking, Chrome extension architecture awareness, AI workflow direction, and automation engineering capability.",
     tech: ["Chrome Extension", "React", "Vite", "Node.js", "Automation"],
-    live: "#replace-live-demo",
     github: "#replace-github-link",
     architecture: "#replace-architecture-diagram",
   },
   {
-    slug: "executive-case-study",
-    title: "Executive Case Study",
-    category: "Enterprise Storytelling",
-    status: "Detailed Case Study",
+    slug: "airtable-project",
+    title: "Airtable Lifecycle Management Platform",
+    category: "Low-Code Platform Engineering",
+    status: "Complete",
     featured: true,
     summary:
-      "Recruiter-friendly executive case study that explains business context, architecture, delivery approach, and value.",
+      "Next-generation lifecycle management platform built on Airtable using relational data models, role-based interfaces, workflow automations, governance controls, and lifecycle visibility.",
     problem:
-      "Technical projects often fail to communicate business value clearly to leadership and interview panels.",
+      "The initial Google-based solution worked well but faced scalability, usability, and governance limitations as process complexity increased.",
     solution:
-      "Created a structured case-study format covering problem, solution, architecture, execution, and business value.",
+      "Reimagined the lifecycle platform using Airtable with relational data models, role-based interfaces, workflow automations, and governance controls.",
     impact:
-      "Strengthens interview storytelling and shows enterprise communication maturity.",
-    tech: ["Case Study", "Architecture", "SAP", "AI", "Presentation"],
-    live: "#replace-case-study-pdf",
-    github: "#replace-github-link",
-    architecture: "#replace-architecture-diagram",
+      "Improved governance, data consistency, and lifecycle transparency through a scalable low-code platform with role-based workflows.",
+    tech: ["Airtable", "Airtable Interfaces", "Automations", "Relational Data", "Modelling","Workflow Design"],
+    architecture: "/Airtable Architecture.png",
   },
   {
     slug: "corporate-treasure-hunt-platform",
@@ -1555,7 +1551,7 @@ export default function App() {
       return <ArchitecturePage />;
     }
 
-    if (activePage === "CreatorFlow Vision") {
+    if (activePage === "Current Vision") {
       return <CreatorFlowVisionPage />;
     }
 
