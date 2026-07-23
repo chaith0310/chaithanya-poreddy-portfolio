@@ -140,41 +140,29 @@ const projects = [
   },
   {
     slug: "corporate-treasure-hunt-platform",
-    title: "Corporate Treasure Hunt Platform",
-    category: "Rapid Prototyping + Gamification",
-    status: "Live Demo",
-    featured: false,
+    title: "Corporate Treasure Hunt Game",
+    category: "Rapid Prototyping",
+    status: "Supporting Project",
+    featured: true,
     summary:
-      "Interactive corporate challenge platform with team-based stages, facilitator-controlled answers, and configurable task flow.",
-    problem:
-      "Corporate engagement events need digital systems that are flexible, fun, and easy for facilitators to control.",
-    solution:
-      "Built a structured challenge platform with password-based progression, editable content, and team-oriented experience design.",
+      "Interactive challenge platform with team-based stages, facilitator-controlled answers, and configurable task flow.",
     impact:
       "Shows fast product execution, event-tech thinking, and practical front-end delivery under real constraints.",
     tech: ["React", "Vite", "Tailwind", "Gamification", "Event Platform"],
     live: "corporate-treasure-hunt-m99k1btjg-chaith.vercel.app",
     github: "https://github.com/chaith0310/corporate-treasure-hunt",
-    architecture: "#replace-architecture-diagram",
-  },
+  }, 
   {
     slug: "corporate-riddle-challenge-platform",
-    title: "Corporate Riddle Challenge Platform",
+    title: "Fun Riddle Challenge",
     category: "Team Engagement + Gamification",
     status: "Supporting Project",
-    featured: false,
+    featured: true,
     summary:
-      "Riddle-based corporate engagement app with task instructions, answer validation, and team progression flow.",
-    problem:
-      "Offline corporate games often lack a polished digital layer for validation, flow control, and participant experience.",
-    solution:
-      "Created a responsive app structure with challenge screens, instruction layers, and configurable passwords.",
-    impact:
-      "Demonstrates UI delivery, rapid iteration, and lightweight product building for internal events.",
+      "Riddle-based fun engagement app with task instructions, answer validation, and  progression flow.",
     tech: ["React", "Vite", "Tailwind", "Game Logic", "UX"],
     live: "aspire-ai-quest-leiv7wkbi-chaith.vercel.app",
     github: "https://github.com/chaith0310/aspire-ai-quest",
-    architecture: "#replace-architecture-diagram",
   },
 ];
 
@@ -614,7 +602,7 @@ function CareerVideoCard({ setActivePage }) {
               <Globe2 className="mx-auto h-12 w-12 text-cyan-300" />
               <p className="mt-4 text-xl font-black">Career Journey Video</p>
               <p className="mt-2 text-sm text-blue-100">
-                Add HeyGen, YouTube, or hosted video link here
+                Video coming soon.....
               </p>
             </div>
           </div>
